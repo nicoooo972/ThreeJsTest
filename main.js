@@ -58,7 +58,3 @@ import * as THREE from 'three';
     };
 
     animate();
-
-    function sleep(ms) {
-        return new Promise(resolve => setTimeout(resolve, ms));
-      }
